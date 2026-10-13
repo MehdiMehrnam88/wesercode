@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">MSG Solution website preview</title>
+  <desc id="desc">Stylized browser preview for msg-solution.de.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#081b2d"/><stop offset="1" stop-color="#0c7eaa"/></linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#72e5ff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="1200" height="760" rx="32" fill="#08111e"/>
+  <rect x="26" y="26" width="1148" height="708" rx="24" fill="#f6fbff"/>
+  <rect x="26" y="26" width="1148" height="58" rx="24" fill="#ffffff"/>
+  <circle cx="60" cy="55" r="8" fill="#e0e8f0"/><circle cx="87" cy="55" r="8" fill="#d5dfe8"/><circle cx="114" cy="55" r="8" fill="#cbd8e4"/>
+  <rect x="165" y="43" width="520" height="24" rx="12" fill="#edf3f7"/>
+  <rect x="74" y="118" width="1052" height="260" rx="24" fill="url(#bg)"/>
+  <circle cx="890" cy="220" r="190" fill="url(#glow)" opacity=".7"/>
+  <rect x="112" y="160" width="360" height="14" rx="7" fill="#91bfd0" opacity=".55"/>
+  <rect x="112" y="194" width="540" height="62" rx="12" fill="#fff"/>
+  <rect x="112" y="273" width="410" height="14" rx="7" fill="#b9d5df"/>
+  <rect x="112" y="303" width="330" height="14" rx="7" fill="#9ac8d6"/>
+  <rect x="112" y="332" width="145" height="32" rx="16" fill="#73e0ff"/>
+  <rect x="74" y="408" width="330" height="230" rx="20" fill="#fff" stroke="#dfe8ef"/>
+  <rect x="426" y="408" width="330" height="230" rx="20" fill="#fff" stroke="#dfe8ef"/>
+  <rect x="778" y="408" width="348" height="230" rx="20" fill="#fff" stroke="#dfe8ef"/>
+  <rect x="104" y="442" width="72" height="72" rx="18" fill="#e5f8fc"/><rect x="456" y="442" width="72" height="72" rx="18" fill="#ece8ff"/><rect x="808" y="442" width="72" height="72" rx="18" fill="#e8f1f6"/>
+  <rect x="104" y="538" width="190" height="13" rx="6.5" fill="#203244"/><rect x="456" y="538" width="190" height="13" rx="6.5" fill="#203244"/><rect x="808" y="538" width="205" height="13" rx="6.5" fill="#203244"/>
+  <rect x="104" y="565" width="250" height="9" rx="4.5" fill="#a9b8c5"/><rect x="456" y="565" width="240" height="9" rx="4.5" fill="#a9b8c5"/><rect x="808" y="565" width="255" height="9" rx="4.5" fill="#a9b8c5"/>
+</svg>

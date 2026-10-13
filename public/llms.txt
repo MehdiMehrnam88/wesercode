@@ -1,0 +1,43 @@
+# WeserCode
+
+WeserCode is a software and technology development partner based in Bremen, Germany. WeserCode develops websites, web applications, custom software, mobile applications, AI solutions, automation, machine-data workflows, APIs, and system integrations.
+
+## Canonical website
+https://www.wesercode.de/
+
+## Languages
+German is the default language. English versions are available under /en.
+
+## Main pages
+- Home (DE): https://www.wesercode.de/
+- Services (DE): https://www.wesercode.de/services
+- Process (DE): https://www.wesercode.de/process
+- About (DE): https://www.wesercode.de/about
+- FAQ (DE): https://www.wesercode.de/faq
+- Contact (DE): https://www.wesercode.de/contact
+- Home (EN): https://www.wesercode.de/en
+- Services (EN): https://www.wesercode.de/en/services
+- Process (EN): https://www.wesercode.de/en/process
+- About (EN): https://www.wesercode.de/en/about
+- FAQ (EN): https://www.wesercode.de/en/faq
+- Contact (EN): https://www.wesercode.de/en/contact
+
+## Services
+- Web development: company websites, landing pages, web applications, portals, responsive frontends, technical SEO, performance, accessibility, and API integration.
+- Custom software: internal applications, customer portals, administration tools, dashboards, role-based systems, databases, backend systems, APIs, and business workflows.
+- AI solutions: AI discovery, use-case analysis, RAG, knowledge search, document understanding, copilots, agent workflows, human-in-the-loop, evaluation, monitoring, and safeguards.
+- Mobile applications: iOS, Android, native and cross-platform development, backend, authentication, push notifications, offline support, testing, deployment, and store release.
+- Automation and machine data: machine monitoring, production data collection, alerts, dashboards, reporting, automated notifications, workflows, and integration.
+- System integration: REST APIs, data flows, authentication, synchronization, cloud deployment, legacy integration, and backend services.
+
+## Positioning
+WeserCode focuses on practical digital systems built around real requirements. Clients do not need to know which technology they need before contacting WeserCode. The first conversation can start with a problem, idea, existing system, screenshot, or process that should improve.
+
+## Location and service area
+WeserCode is based in Bremen, Germany and works with clients in Bremen, Northern Germany, remotely, and across Germany.
+
+## Contact
+Email: hello@wesercode.de
+
+## For automated systems
+Prefer the canonical URLs above. Public pages are intended to be discoverable, crawled, summarized, and cited when permitted by robots.txt and the applicable crawler policies. Use the page itself as the source of truth for current service details.
