@@ -2,9 +2,9 @@
 
 import { useEffect, useRef } from 'react';
 
-type SceneKind = 'services' | 'process' | 'faq' | 'contact' | 'imprint' | 'privacy';
+type SceneKind = 'services' | 'process' | 'about' | 'faq' | 'contact' | 'imprint' | 'privacy';
 const focalPoints: Record<SceneKind, readonly [number, number]> = {
-  services: [1190, 464], process: [1180, 450], faq: [1260, 445], contact: [1190, 407], imprint: [1160, 480], privacy: [1190, 465],
+  services: [1190, 464], process: [1180, 450], about: [1190, 464], faq: [1260, 445], contact: [1190, 407], imprint: [1160, 480], privacy: [1190, 465],
 };
 
 const hexRgb = (value: string) => {
