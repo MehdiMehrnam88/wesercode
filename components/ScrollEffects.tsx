@@ -24,6 +24,7 @@ export function ScrollEffects() {
     }
 
     let revealObserver: IntersectionObserver | null = null;
+    let homeSceneObserver: IntersectionObserver | null = null;
     if ('IntersectionObserver' in window) {
       revealObserver = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
@@ -61,7 +62,22 @@ export function ScrollEffects() {
         }
       });
       select(root, '[data-parallax]').forEach((element) => parallaxElements.add(element));
+      select(root, '[data-home-scene]').forEach((element) => {
+        if (element.dataset.sceneObserved) return;
+        element.dataset.sceneObserved = 'true';
+        homeSceneObserver?.observe(element);
+      });
     };
+
+    if ('IntersectionObserver' in window) {
+      homeSceneObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          entry.target.classList.add('scene-entered');
+          homeSceneObserver?.unobserve(entry.target);
+        });
+      }, { threshold: 0.14, rootMargin: '0px 0px -8% 0px' });
+    }
 
     registerElements();
     document.documentElement.dataset.scrollMotion = 'ready';
@@ -121,6 +137,7 @@ export function ScrollEffects() {
 
     return () => {
       revealObserver?.disconnect();
+      homeSceneObserver?.disconnect();
       mutations.disconnect();
       window.removeEventListener('scroll', scheduleParallax);
       window.removeEventListener('resize', scheduleParallax);

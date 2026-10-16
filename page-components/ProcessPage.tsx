@@ -24,7 +24,7 @@ export function ProcessPage({ locale }: { locale: Locale }) {
       ];
 
   return <Shell locale={locale} page="process">
-    <VisualPageHero type="process" locale={locale} />
+    <VisualPageHero type="process" locale={locale} title={c.process.title} intro={c.process.intro} />
     <section className="section section-after-hero-reassurance"><div className="container"><ConversationBridge locale={locale} mode="compact" /></div></section>
 
     <section id="process-overview" className="section process-overview-section">

@@ -24,7 +24,7 @@ export function ConversationBridge({ locale, mode = 'home' }: { locale: Locale; 
   }
 
   return (
-    <section className="section conversation-section home-visual-stage">
+    <section className="section conversation-section home-visual-stage" data-home-scene="conversation">
       <HomeVisualModule kind="conversation" />
       <div className="container">
         <div className="conversation-intro">

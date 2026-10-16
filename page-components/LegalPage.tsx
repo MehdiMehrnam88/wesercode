@@ -2,6 +2,7 @@ import { site, type Locale } from '@/lib/i18n';
 import type { ReactNode } from 'react';
 import { Shell } from './Shell';
 import { PageHeroArtwork } from '@/components/PageHeroArtwork';
+import { PageHeroAtmosphere } from '@/components/PageHeroAtmosphere';
 
 const UPDATED_DE = '10. Oktober 2026';
 const UPDATED_EN = 'October 10, 2026';
@@ -17,8 +18,8 @@ function LegalSection({ title, children }: { title: string; children: ReactNode 
 export function ImprintPage({ locale }: { locale: Locale }) {
   const de = locale === 'de';
   return <Shell locale={locale}>
-    <section className="page-hero section-dark legal-page-hero">
-      <div className="legal-page-hero-art" data-parallax="0.1"><PageHeroArtwork kind="imprint" /></div>
+    <section className="page-hero section-dark legal-page-hero legal-page-hero-imprint">
+      <div className="legal-page-hero-art" data-parallax="0.1"><PageHeroArtwork kind="imprint" /><PageHeroAtmosphere kind="imprint" /></div>
       <div className="container narrow page-hero-panel">
         <span className="eyebrow">01 / LEGAL</span>
         <h1>{de ? 'Impressum' : 'Imprint'}</h1>
@@ -59,8 +60,8 @@ export function ImprintPage({ locale }: { locale: Locale }) {
 export function PrivacyPage({ locale }: { locale: Locale }) {
   const de = locale === 'de';
   return <Shell locale={locale}>
-    <section className="page-hero section-dark legal-page-hero">
-      <div className="legal-page-hero-art" data-parallax="0.1"><PageHeroArtwork kind="privacy" /></div>
+    <section className="page-hero section-dark legal-page-hero legal-page-hero-privacy">
+      <div className="legal-page-hero-art" data-parallax="0.1"><PageHeroArtwork kind="privacy" /><PageHeroAtmosphere kind="privacy" /></div>
       <div className="container narrow page-hero-panel">
         <span className="eyebrow">01 / LEGAL</span>
         <h1>{de ? 'Datenschutz' : 'Privacy'}</h1>

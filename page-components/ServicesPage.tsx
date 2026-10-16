@@ -9,7 +9,7 @@ import { ConversationBridge } from '@/components/ConversationBridge';
 export function ServicesPage({ locale }: { locale: Locale }) {
   const c = content[locale];
   return <Shell locale={locale} page="services">
-    <VisualPageHero type="services" locale={locale} />
+    <VisualPageHero type="services" locale={locale} title={c.services.title} intro={c.services.intro} />
     <section className="section section-after-hero-reassurance"><div className="container"><ConversationBridge locale={locale} mode="compact" /></div></section>
     <section className="section"><div className="container">
       <ServiceBlock id="machine" number="01" title={c.services.machineTitle} lead={c.services.machineLead} icon="pulse"><MachineFlow /><div className="service-notes"><span>{c.services.sequenceLabel}</span><div><strong>{locale === 'de' ? 'Typische Anwendungen' : 'Potential applications'}</strong><p>{locale === 'de' ? 'Maschinenmonitoring · Produktionsdatenerfassung · Alerts · Dashboards · Reporting · automatische Benachrichtigungen · Workflows · Integration.' : 'Machine monitoring · production data collection · alerts · dashboards · reporting · automated notifications · workflows · integration.'}</p></div></div></ServiceBlock>

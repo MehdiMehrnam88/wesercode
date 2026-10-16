@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { SunsetSkylineHero } from '@/components/ui/sunset-skyline-hero';
 
 export function HeroScene() {
   return (
@@ -16,6 +17,7 @@ export function HeroScene() {
       <div className="hero-scene-glow glow-one" data-parallax="0.1" />
       <div className="hero-scene-glow glow-two" data-parallax="0.18" />
       <div className="hero-scene-mesh" data-parallax="0.05" />
+      <SunsetSkylineHero />
       <div className="hero-system-depth" data-parallax="0.12">
         <div className="hero-system-stage">
           <div className="hero-system-orbit hero-system-orbit-a" />
