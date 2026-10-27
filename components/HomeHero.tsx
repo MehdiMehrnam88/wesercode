@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { content, type Locale } from '@/lib/i18n';
 import { Icon } from './Icon';
 import { HomeHeroScene } from './HomeHeroScene';
+import { ImmersiveSignalScene } from './ImmersiveSignalScene';
 
 export function HomeHero({ locale }: { locale: Locale }) {
   const copy = content[locale];
@@ -23,7 +24,7 @@ export function HomeHero({ locale }: { locale: Locale }) {
           <div className="home-hero-proof"><span>{locale === 'de' ? 'Vom ersten Gedanken bis zum Betrieb' : 'From first idea through operations'}</span><i /> <span>{locale === 'de' ? 'Bremen · Deutschlandweit' : 'Bremen · Across Germany'}</span></div>
         </div>
 
-        <div className="home-hero-visual-space" aria-hidden="true" />
+        <div className="home-hero-visual-space"><ImmersiveSignalScene /></div>
       </div>
       <a className="home-hero-scroll" href="#home-intro"><span>{locale === 'de' ? 'Die Möglichkeiten entdecken' : 'Discover what is possible'}</span><i aria-hidden="true" /></a>
     </section>
